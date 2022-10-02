@@ -7,3 +7,81 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0 152px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header div {
+    margin: 32.5px 0;
+}
+
+.login {
+    width: 166px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.login a {
+    font-size: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+/*BANNER*/
+
+.banner {
+    width: 100%;
+    height: 352px;
+    background-image: url(./assets/banner-image.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content:flex-end;
+}
+
+.banner div {
+    margin-left: 152px;
+    margin-right: 152px;
+}
+
+.texto-principal {
+    color: white;
+}
+
+.texto-principal h1{  
+    font-size: 52px;  
+    font-weight: bold;
+}
+
+.texto-principal h3{  
+    font-size: 22px;  
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.link-consoles {
+    width: 130px;
+    height: 51px;
+    background-color: #2A7AE4;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.link-consoles a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}

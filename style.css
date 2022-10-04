@@ -85,3 +85,65 @@ header div {
     font-size: 16px;
     color: white;
 }
+
+/* PRODUTOS */
+
+.cabecalho-produto {
+    margin: 64px 152px 16px 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-produto {
+    font-size: 32px;
+    color: #464646;
+}
+
+.cabecalho-produto a {
+    font-size: 16px;
+    color:#2A7AE4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.star_wars, .consoles, .diversos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    margin-left: 152px;
+    margin-right: 152px;
+}
+
+.texto-produto {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #464646;
+}
+
+.descricao {
+    font-size: 14px; 
+}
+
+.preco {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link-produto {
+    font-size: 16px;
+    font-weight: bold;
+    color:#2A7AE4;
+    text-decoration: none;
+}
+
+
+
+
+
+footer {
+    margin-top: 100px;
+}

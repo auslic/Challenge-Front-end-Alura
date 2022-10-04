@@ -16,10 +16,36 @@ header {
     margin: 0 152px;
     justify-content:space-between;
     align-items: center;
+    text-align: center;
 }
 
 header div {
     margin: 32.5px 0;
+}
+
+.logo-pesquisa {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 176px;
+    height: 51px;
+}
+
+.pesquisa {
+    padding: 8px 16px;
+    width: 393px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 32px;
+}
+
+.pesquisa::placeholder {
+    font-size: 14px;
 }
 
 .login {
@@ -140,10 +166,78 @@ header div {
     text-decoration: none;
 }
 
+/* FOOTER */
 
+.rodape {
+    display: flex;
+    flex-direction: row;
+    padding: 64px 152px 64px 152px;
+    justify-content: space-between;
+    background-color: #EAF2FD;
+    margin-top: 64px;
+}
 
+.rodape ul {
+    list-style: none;
+}
 
+.rodape ul li{
+    margin-bottom: 24px;
+}
 
-footer {
-    margin-top: 100px;
+.rodape ul li:last-child{
+    margin: 0;
+}
+
+.rodape ul li a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 16px;
+}
+
+.formulario h1 {
+    font-size: 16px;
+}
+
+.area-de-texto {
+    width: 560px;
+    border: 0;
+    border-radius: 4px;
+    height: 56px;
+}
+
+.area-de-texto::placeholder{
+    position: relative;
+    top: -15px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.area-de-texto:nth-child(3) {
+    height: 82px;
+    font-size: 16px;
+}
+
+.area-de-texto:nth-child(3)::placeholder{
+    top: -25px;
+}
+
+.enviar {
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.creditos {
+    text-align: center;
+    margin: 32px 0;
 }

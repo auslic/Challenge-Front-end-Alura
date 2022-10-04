@@ -16,8 +16,9 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./assets/logo.png" alt="Logo da AluraGeek">
+        <div class = "logo-pesquisa">
+            <img src="./assets/logo.png" alt="Logo da AluraGeek" class="logo">
+            <input type="text" placeholder="O que deseja pesquisar?" class="pesquisa">
         </div>
 
         <div class="barra">
@@ -227,7 +228,7 @@
             <div class="produto">
                 <img src="./assets/Diversos/d6.png" alt="" class="imagem-produto">
                 <div class="texto-produto">
-                    <p class="descricao">Fantasia do Pikashu</p>
+                    <p class="descricao">Fantasia do Pikachu</p>
                     <p class="preco">R$ 60,00</p>
                     <a class="link-produto" href="">Ver produto</a>
                 </div>  
@@ -236,13 +237,30 @@
     </main>
 
     <footer>
-        <div>
+        <section class="rodape">
+            <img src="./assets/logo.png" alt="" class="logo">
 
-        </div>
-
-        <div>
+            <ul>
+                <li><a href="">Quem somos nós</a></li>
+                <li><a href="">Política de Privacidade</a></li>
+                <li><a href="">Programa fidelidade</a></li>
+                <li><a href="">Nossas lojas</a></li>
+                <li><a href="">Quero ser franqueado</a></li>
+                <li><a href="">Anuncie aqui</a></li>
+            </ul>
             
-        </div>
+            <div class="formulario">
+                <h1>Fale Conosco</h1>
+                <input type="text" placeholder="Nome" class="area-de-texto">
+                <input type="text" placeholder="Escreva sua mensagem" class="area-de-texto">       
+                <input type="button" value="Enviar mensagem" class="enviar">         
+            </div>
+
+        </section>
+
+        <section class="creditos">
+            <p>Desenvolvido por Guilherme Pereira <br>2022</p>
+        </section>
     </footer>
 </body>
 </html>

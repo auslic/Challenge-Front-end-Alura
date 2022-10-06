@@ -1,0 +1,202 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 80%;
+    margin: 37.5px auto;
+}
+
+.logo {
+    width: 176px;
+    height: 51px;
+}
+
+.barra-de-pesquisa {
+    padding: 8px 16px;
+    width: 393px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 32px;
+}
+
+.barra-de-pesquisa::placeholder {
+    font-size: 14px;
+}
+
+.header-login {
+    width: 166px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.login-link {
+    font-size: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(../assets/banner-image.png);
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+}
+
+.banner .container {
+    width: 80%;
+    margin: auto;
+    padding-top: 155px;
+}
+
+.banner-texto-principal {
+    color: white;
+}
+
+.banner-texto-principal h1{  
+    font-size: 52px;  
+    font-weight: bold;
+}
+
+.banner-texto-principal h3{  
+    font-size: 22px;  
+    font-weight: bold;
+}
+
+.banner-link {
+    width: 130px;
+    height: 51px;
+    background-color: #2A7AE4;
+    margin-bottom: 32px;
+}
+
+.banner-link a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+main .container {
+    margin: 64px 0px;
+}
+
+.cabecalho-titulo {
+    font-size: 32px;
+    color: #464646;
+}
+
+.cabecalho-link a{
+    font-size: 16px;
+    color:#2A7AE4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cabecalho-link::after {
+    content:" ";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../assets/arrow.png);
+}
+
+.produtos-lista{
+    margin-bottom: calc(64px - 16px);
+}
+
+.produto > p {
+    color: #464646;
+}
+
+.produto-nome {
+    font-size: 14px; 
+}
+
+.produto-preco {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.produto-link {
+    font-size: 16px;
+    font-weight: bold;
+    color:#2A7AE4;
+    text-decoration: none;
+}
+
+footer .container {
+    background-color: #EAF2FD;
+}
+
+.rodape {
+    width: 80%;
+    margin: auto;
+    padding: 64px 0;
+}
+
+.rodape-creditos {
+    background-color: white;
+}
+
+.rodape-lista-item a {
+    text-decoration: none;
+    color: #464646;
+    font-size: 16px;
+}
+
+.rodape-formulario h1 {
+    font-size: 16px;
+    color: #464646;
+}
+
+.rodape-formulario-nome, .rodape-formulario-mensagem {
+    width: 560px;
+    border: 0;
+    border-radius: 4px;
+    height: 56px;
+    padding-left: 12px;
+    font-size: 16px;
+} 
+
+.rodape-formulario-nome::placeholder{
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+}
+
+.rodape-formulario-mensagem::placeholder {
+    font-size: 16px;
+    position: absolute;
+    top: 16px;
+}
+
+.rodape-formulario-nome {
+    margin-bottom: 8px;
+}
+
+.rodape-formulario-mensagem{
+    height: 82px;
+}
+
+.rodape-formulario-envio {
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.rodape-creditos {
+    padding: 32px 0;
+}

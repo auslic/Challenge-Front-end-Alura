@@ -1,0 +1,85 @@
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.banner-texto-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.secao-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produtos-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rodape {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.rodape-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rodape-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;  
+}
+
+.rodape-creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

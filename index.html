@@ -10,257 +10,215 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
 
     <title>AluraGeek</title>
 </head>
 <body>
     <header>
-        <div class = "logo-pesquisa">
-            <img src="./assets/logo.png" alt="Logo da AluraGeek" class="logo">
-            <input type="text" placeholder="O que deseja pesquisar?" class="pesquisa">
-        </div>
+        <div class="container">
+            <div class = "header-logo-pesquisa">
+                <img src="./assets/logo.png" alt="Logo da AluraGeek" class="logo">
+                <input type="text" placeholder="O que deseja pesquisar?" class="barra-de-pesquisa">
+            </div>
 
-        <div class="barra">
-
-        </div>
-
-        <div class="login">
-            <a href="">Login</a>
+            <div class="header-login">
+                <a href="" class = "login-link">Login</a>
+            </div>
         </div>
     </header>
 
     <section class="banner">
-        <div class="texto-principal">
-            <h1>Dezembro Promocional</h1>
-            <h3>Produtos selecionados com 33% de desconto</h3>
-        </div>
+        <div class="container">
+            <div class="banner-texto-principal">
+                <h1>Dezembro Promocional</h1>
+                <h3>Produtos selecionados com 33% de desconto</h3>
+            </div>
 
-        <div class="link-consoles">
-            <a href="">Ver Consoles</a>
+            <div class="banner-link">
+                <a href="">Ver Consoles</a>
+            </div>
         </div>
     </section>
 
     <main>
+        
+        <div class="container">
+            <div class="secao-cabecalho">
+                <h1 class="cabecalho-titulo">Star Wars</h1>
+                <p class="cabecalho-link">
+                    <a href="">Ver tudo</a>
+                </p>
+            </div>
 
-        <div class="cabecalho-produto">
-            <h1 class="titulo-produto">Star Wars</h1>
-            <div>
-                <a href="">Ver tudo</a>
-                <img src="./assets/arrow.png" alt="Seta">
-            </div>  
+            <section class = "secao-produtos">
+                <ul class="produtos-lista">
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw1.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw2.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw3.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw4.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw5.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Star Wars/sw6.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="secao-cabecalho">
+                <h1 class="cabecalho-titulo">Consoles</h1>
+                <p class="cabecalho-link">
+                    <a href="">Ver tudo</a>
+                </p>
+            </div>
+
+            <section class = "secao-produtos">
+                <ul class="produtos-lista">
+                    <li class="produto">
+                        <img src="./assets/Consoles/c1.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Consoles/c2.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Consoles/c3.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Consoles/c4.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Consoles/c5.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Consoles/c6.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="secao-cabecalho">
+                <h1 class="cabecalho-titulo">Diversos</h1>
+                <p class="cabecalho-link">
+                    <a href="">Ver tudo</a>
+                </p>
+            </div>
+
+            <section class = "secao-produtos">
+                <ul class="produtos-lista">
+                    <li class="produto">
+                        <img src="./assets/Diversos/d1.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Diversos/d2.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Diversos/d3.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Diversos/d4.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Diversos/d5.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                    <li class="produto">
+                        <img src="./assets/Diversos/d6.png" alt="">
+                        <p class="produto-nome">Produto XYZ</p>
+                        <p class="produto-preco">R$ 60,00</p>
+                        <a href="" class="produto-link">Ver produto</a>
+                    </li>
+                </ul>
+            </section>
         </div>
-
-        <section class="star_wars">        
-            <div class="produto">
-                <img src="./assets/Star Wars/sw1.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Caneca Stomtrooper</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Star Wars/sw2.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Cabeças de Lego</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Star Wars/sw3.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Boneco do Yoda</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Star Wars/sw4.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Boneco do Stomtrooper</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Star Wars/sw5.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Baby Yoda de pelúciar</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Star Wars/sw6.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Boneco Kylo Ren</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>  
-            </div>
-        </section>
-
-        <div class="cabecalho-produto">
-            <h1 class="titulo-produto">Consoles</h1>
-            <div>
-                <a href="">Ver tudo</a>
-                <img src="./assets/arrow.png" alt="Seta">
-            </div>  
-        </div>
-
-        <section class="consoles">
-            <div class="produto">
-                <img src="./assets/Consoles/c1.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Controle de Xbox One</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Consoles/c2.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Playstation 5</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Consoles/c3.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Nintendo</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Consoles/c4.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Controles de Nintendo Switch</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Consoles/c5.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Xbox Series X</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Consoles/c6.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Game Boy</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>  
-            </div>
-        </section>
-
-        <div class="cabecalho-produto">
-            <h1 class="titulo-produto">Diversos</h1>
-            <div>
-                <a href="">Ver tudo</a>
-                <img src="./assets/arrow.png" alt="Seta">
-            </div>  
-        </div>
-
-        <section class="diversos">
-            <div class="produto">
-                <img src="./assets/Diversos/d1.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Camisa Atari</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Diversos/d2.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Camisa Nintendo</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Diversos/d3.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Boneco do Sonic</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Diversos/d4.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Rádio</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Diversos/d5.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Óculos VR</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>
-            </div>
-
-            <div class="produto">
-                <img src="./assets/Diversos/d6.png" alt="" class="imagem-produto">
-                <div class="texto-produto">
-                    <p class="descricao">Fantasia do Pikachu</p>
-                    <p class="preco">R$ 60,00</p>
-                    <a class="link-produto" href="">Ver produto</a>
-                </div>  
-            </div>
-        </section>
     </main>
 
     <footer>
-        <section class="rodape">
-            <img src="./assets/logo.png" alt="" class="logo">
+        <div class="container">
+            <section class="rodape">
+                <img src="./assets/logo.png" alt="" class="logo">
 
-            <ul>
-                <li><a href="">Quem somos nós</a></li>
-                <li><a href="">Política de Privacidade</a></li>
-                <li><a href="">Programa fidelidade</a></li>
-                <li><a href="">Nossas lojas</a></li>
-                <li><a href="">Quero ser franqueado</a></li>
-                <li><a href="">Anuncie aqui</a></li>
-            </ul>
-            
-            <div class="formulario">
-                <h1>Fale Conosco</h1>
-                <input type="text" placeholder="Nome" class="area-de-texto">
-                <input type="text" placeholder="Escreva sua mensagem" class="area-de-texto">       
-                <input type="button" value="Enviar mensagem" class="enviar">         
-            </div>
+                <ul class="rodape-lista">
+                    <li class="rodape-lista-item"><a href="">Quem somos nós</a></li>
+                    <li class="rodape-lista-item"><a href="">Política de Privacidade</a></li>
+                    <li class="rodape-lista-item"><a href="">Programa fidelidade</a></li>
+                    <li class="rodape-lista-item"><a href="">Nossas lojas</a></li>
+                    <li class="rodape-lista-item"><a href="">Quero ser franqueado</a></li>
+                    <li class="rodape-lista-item"><a href="">Anuncie aqui</a></li>
+                </ul>
+                
+                <div class="rodape-formulario">
+                    <h1>Fale Conosco</h1>
+                    <input type="text" placeholder="Nome" class="rodape-formulario-nome">
+                    <input type="text" placeholder="Escreva sua mensagem" class="rodape-formulario-mensagem">       
+                    <input type="button" value="Enviar mensagem" class="rodape-formulario-envio">         
+                </div>
+            </section>
 
-        </section>
-
-        <section class="creditos">
-            <p>Desenvolvido por Guilherme Pereira <br>2022</p>
-        </section>
+            <section class="rodape-creditos">
+                <p>Desenvolvido por Guilherme Pereira</p>
+                <p>2022</p>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
